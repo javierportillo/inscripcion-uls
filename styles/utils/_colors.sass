@@ -1,0 +1,39 @@
+// main: ../main.sass
+
+// COLORES DEL PROYECTO
+
+// Color principal del proyecto
+$c-main: #324A6F
+
+// Color para separadores
+$c-line-separator: mix($c-main, white, 20%)
+
+// Color principal del fondo
+$c-background: white
+
+// Color de fondo secundario
+$c-background--darker: mix($c-background, black, 95%)
+
+// Color principal del texto
+$c-text-tinted: mix($c-main, black, 90%)
+
+// Color de texto en fondos oscuros
+$c-text-light: mix($c-main, white, 10%)
+
+// Color de texto oscuro en fondos oscuros
+$c-text-light--subdued: mix($c-main, white, 60%)
+
+// Color de los botones normales
+$c-button: $c-main
+
+// Color de los botones deshabilitados
+$c-button--disabled: mix($c-main, grey, 60%)
+
+// Color del texto de los botones deshabilitados
+$c-button-text--disabled: lighten($c-button--disabled, 25%)
+
+// Color del fondo para mensajes de error
+$c-bg-errors: #F2C141
+
+// Color para las sombras
+$c-shadows: rgba(0, 0, 0, 0.1);

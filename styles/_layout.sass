@@ -1,0 +1,36 @@
+// main: main.sass
+
+.flex__container
+  display: flex
+  margin: 0 auto 15px auto
+  flex-wrap: wrap
+  justify-content: space-between
+
+.flex__item
+  flex: 0 0 auto
+
+.page-container
+  position: relative
+  min-width: $brkp-min
+  max-width: $brkp-max
+  min-height: 100vh
+  margin: 0 auto
+  padding: 10px 0
+  height: 100%
+  display: flex
+  flex-direction: column
+
+  & > *
+    flex: none
+
+  & > #main-content
+    flex: 1 0 auto
+
+@media screen and (max-width: $brkp-max)
+  .page-container
+    margin: 0 10px
+
+@media screen and (max-width: $brkp-small)
+  .page-container
+    margin: 0
+    padding: 0

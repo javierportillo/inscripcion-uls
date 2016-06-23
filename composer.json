@@ -1,0 +1,13 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/javierportillo/gs1_128.git"
+        }
+    ],
+    "require": {
+        "ayeo/gs1_barcode": "dev-master",
+        "setasign/fpdf": "^1.8",
+        "hassankhan/config": "^0.10.0"
+    }
+}

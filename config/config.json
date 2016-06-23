@@ -1,0 +1,101 @@
+{
+    "database": {
+        "driver": "mysql",
+        "host": "localhost",
+        "schema": "inscripcion_uls",
+        "username": "inscripcionusr",
+        "password": "inscripcionpass",
+        "charset": "utf8mb4"
+    },
+
+    "identificador_empresa": "00015",
+
+    "tipos_de_pago": {
+        "00": {
+            "tipo": "matricula_ciclo1",
+            "nombre": "Matrícula",
+            "precio": 40.5,
+            "desgloce": [
+                {"nombre": "Matrícula", "precio": 25},
+                {"nombre": "Papelería", "precio": 15.5}
+            ]
+        },
+        "01": {
+            "tipo": "enero",
+            "nombre": "Enero",
+            "precio": 40
+        },
+        "02": {
+            "tipo": "febrero",
+            "nombre": "Febrero",
+            "precio": 40
+        },
+        "03": {
+            "tipo": "marzo",
+            "nombre": "Marzo",
+            "precio": 40
+        },
+        "04": {
+            "tipo": "abril",
+            "nombre": "Abril",
+            "precio": 40
+        },
+        "05": {
+            "tipo": "mayo",
+            "nombre": "Mayo",
+            "precio": 40
+        },
+        "06": {
+            "tipo": "junio",
+            "nombre": "Junio",
+            "precio": 40
+        },
+        "13": {
+            "tipo": "matricula_ciclo2",
+            "nombre": "Matrícula",
+            "precio": 40.5,
+            "desgloce": [
+                {"nombre": "Matrícula", "precio": 25},
+                {"nombre": "Papelería", "precio": 15.5}
+            ]
+        },
+        "07": {
+            "tipo": "julio",
+            "nombre": "Julio",
+            "precio": 40
+        },
+        "08": {
+            "tipo": "agosto",
+            "nombre": "Agosto",
+            "precio": 40
+        },
+        "09": {
+            "tipo": "septiembre",
+            "nombre": "Septiembre",
+            "precio": 40
+        },
+        "10": {
+            "tipo": "octubre",
+            "nombre": "Octubre",
+            "precio": 40
+        },
+        "11": {
+            "tipo": "noviembre",
+            "nombre": "Noviembre",
+            "precio": 40
+        },
+        "12": {
+            "tipo": "diciembre",
+            "nombre": "Diciembre",
+            "precio": 4
+        }
+    },
+
+    "archivos_protegidos": {
+        "matricula.php": true,
+        "cerrarsesion.php": true,
+        "actividadpagos.php": true,
+        "mostrar_recibo.php": true,
+        "mostrar_hoja_inscripcion.php": true
+    }
+}

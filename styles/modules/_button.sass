@@ -1,0 +1,28 @@
+// main: ../main.sass
+
+.button
+  background: $c-button
+  color: $c-text-light
+  padding: 7px
+  font-size: 1rem
+  position: relative
+  text-decoration: none
+
+  &:focus
+    outline: 0
+
+  &:hover
+    bottom: 2px
+
+  &:active
+    bottom: -2px
+
+  &:disabled
+    background: $c-button--disabled
+    color: $c-button-text--disabled
+
+    &:hover
+      bottom: 0
+
+    &:active
+      bottom: 0
